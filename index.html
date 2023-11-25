@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>BugTicketer</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+  </head>
+  <body>
+    <div class="MainDiv">
+      
+      <label class="titleLabel" for="">Console prompter</label>
+     
+      <label class= "instructionLabel"for="">Correct the following code so that it executes Hello World! in the console below. You may change the string to your liking.</label>
+      <label class="languageLabel"  for="language">Choose the language</label> 
+    <select class="languageSelect" name="languages" id="languages"> 
+        <option value="Python">Python</option> 
+        <option value="Javascript">Javascript</option> 
+        <option value="R">R</option> 
+       <!--<option value="Java">Java</option> -->
+    </select>
+    
+
+      
+    </div>
+    
+    <div class="">
+      <textarea id="codeLabel" class="codeLabel" for="">console("Hello World")</textarea>
+    </div>
+    
+    <div>
+          <button id="submitBtn" class="submitBtn" type="submit">Submit</button>
+    </div>
+    
+    <div id="consoleDiv" class="consoleDiv">
+      <label id="consoleLabel" class="consoleLabel"> ... </label>
+      
+    </div>
+    
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    
+  </body>
+</html>

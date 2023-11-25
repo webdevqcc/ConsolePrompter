@@ -1,0 +1,63 @@
+body{
+
+
+}
+
+.MainDiv{
+  margin-top:50px;
+display:inline-block;
+
+     display: block;
+
+  
+}
+
+.titleLabel{
+  display:block;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:10px;
+}
+
+.bugInput{
+  display:block;
+  margin-left:35px;
+  margin-bottom:30px;
+     display: flex;
+    align-items: center;
+  justify-content: center;
+}
+.languagesLabel{
+
+     display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.codeLabel{
+  width:1000px;
+  height:100px;
+}
+
+.instructionLabel{
+
+     display: flex;
+    align-items: center;
+  justify-content: center;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.submitBtn{
+  
+}
+
+.consoleLabel{
+display:inline-block;
+  border: 1px solid black;
+  width: 250px;
+  height: 100px;
+}
+
+
